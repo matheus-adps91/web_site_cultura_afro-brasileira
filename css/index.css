@@ -1,0 +1,60 @@
+/* somente para visualização*/
+.row {
+    border: 1px solid #016236;
+}
+
+body {
+    background-color: #fffff0;
+}
+
+.format-text {
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* Títulos H1 */
+.format-h1 {
+    margin: 10px;
+    color: #713d2b;
+}
+
+/* Títulos H2 */
+.format-h2 {
+    color: #713d2b;
+    width: 100%;
+}
+
+/* Cor dos textos contidos nos paragrfos */
+.format-text {
+    color: #713d2b;
+    font-weight: 500;
+}
+
+/* Imagens */
+.format-img {
+    display: flex;
+    justify-content: center;  /* horizontal */
+    align-items: center;    /* vertical */
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/* banner */
+#banner {
+    padding: 0;
+}
+
+
+@media (max-width: 768px) {
+  
+    .row {
+        flex-direction: column;
+    }
+
+    .format-text {
+        font-size: .8rem;
+    }
+
+}

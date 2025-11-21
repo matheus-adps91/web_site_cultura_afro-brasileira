@@ -1,0 +1,13 @@
+
+
+@media (max-width: 768px) {
+    .format-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .format-text {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+}

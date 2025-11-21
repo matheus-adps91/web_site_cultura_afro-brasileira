@@ -4,47 +4,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+    <!--<link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css"> -->
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
-    <link rek="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12">Header</div>
+            <div class="col-12" id="banner">
+                <img
+                    src="./imagens/banner/banner_resistencia_afro_brasileira.png" 
+                    alt="Banner com a cores  amarela, verde e vermelha simbolizando a cultura afro-brasileira"
+                >
+            </div>
         </div>
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav  id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand navbar-brand-style" href="#">História</a>
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                    >
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./cultura.html">Cultura</a>
+                        <a class="nav-link navbar-list" aria-current="page" href="./culinaria.html">Culinária</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="./cultura.html">Arte</a>
+                        <a class="nav-link navbar-list" href="./cultura.html">Arte</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="./musica.html">Música</a>
+                        <a class="nav-link navbar-list" href="./musica.html">Música</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="./religiao.html">Religião</a>
+                        <a class="nav-link navbar-list" href="./religiao.html">Religião</a>
                         </li>
                     </ul>
                     </div>
                 </div>
             </nav>
         </div>
-    </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="format-h1">O início de tudo...</h1>
+                <p class="format-text">
+                    A cultura africana iniciou em nossas terras com o tráfico forçado de africanos em navios
+                    portugueses, conhecidos como <strong>tumbeiros</strong> em meados do século XVI, os escravos 
+                    eram adquirido na costa africana por portugueses a base de trocas por itens como 
+                    <strong>tabaco, pólvora e cachaça.</strong>
+                    <br>
+                    A viagem durava aproximadamente 50 dias, devido as condições insalubres dos porões dos navios
+                    e má alimentação, uma parcela de escravos morria durante a navegação. Essa atividade era 
+                    altamente lucrativa e, atendia ao interesse de enriquecer a coroa portuguesa em função do 
+                    alto valor pago por cada escravo por parte dos senhores de engenho.
+                </p>
+            </div>
+            <div class="col-md-6 format-img">
+                <img src="./imagens/index/chegada_africanos.png"  alt="Chegada de africanos ao Brasil">
+            </div>
+        </div>
+        <div class="row">
+            <h1 class="format-h1">Período Colonial</h1>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner ">
+                        
+                        <div class="carousel-item active" data-bs-interval="13000">
+                            
+                            <div class="d-flex align-items-center">
+                            <div class="col-md-6 format-img">
+                                <img 
+                                    src="./imagens/index/escravos_trabalhando_latifundio.png" 
+                                    alt="Escravos africanos trabalhando na culta da cana de açúcar"                                 
+                                >
+                            </div>                                
+                            <div class="col-md-6">
+                                <h2 class="format-h2">Ciclo da Cana</h2>
+                                <p class="format-text"> 
+                                    A mão-de-obra escrava foi utilizada nas lavouras para a produção de cana-de-açúcar,
+                                    tabaco, algodão e operação de engenho, esse utilização pendurou até a descoberta do
+                                    ouro, onde os escravos passaram a ser utilizados na atividade de extração do metal
+                                    precioso.                 
+                                </p>  
+                            </div>
+                            </div>                   
+                        </div>
+                        
+                        <div class="carousel-item" data-bs-interval="25000">
+                            <div class="d-flex align-items-center">
+                            <div class="col-md-6 format-img">
+                                <img
+                                    src="./imagens/index/escravo_extraindo_ouro.png" 
+                                    alt="Escravos africanos trabalhando na culta da cana de açúcar"   
+                                >
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="format-h2">Ciclo do Ouro</h2>
+                                <p class="format-text format-img">
+                                    A atividade de mineiração ocorreu em grande parte no estado de Minas Gerais, onde as minas
+                                    recebiam o nome de <strong>lavras</strong>. Para ser um proprietário de lavra, era necessário 
+                                    possuir uma quantidade mínima de escravos, a distribuição de lotes seguia este critério, aos  
+                                    lotes de terra, dava-se o nome de <strong>datas</strong>.
+                                    <br>                    
+                                    Os escravos trabalhavam muitas horas em ambientes úmidos e com falta de oxigênio, sob forte 
+                                    vigilância e com punissões físicas severas. Era comum a tentiva de fuga e formação de 
+                                    <strong>quilombos</strong>, área onde os escravos se instalavam para a prática de crençãs 
+                                    religosas e festas culturais de suas terra natal. 
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item" data-bs-interval="16000">
+                            <div class="d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img
+                                    src="./imagens/index/escravos_colhendo_cafe.png" 
+                                    alt="Escravos africanos trabalhando na culta da cana de açúcar"  
+                                >
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="format-h2">Ciclo do Café</h2>
+                                <p class="format-text">
+                                    O café chega ao Brasil em 1827, com sementes vindas da Guiana Francesa. As primeiras
+                                    plantações foram em morros em torno da cidade do Rio de Janeiro. A produção do Café se 
+                                    expande para o Vale do Paraíba em função das condições climáticas serem melhor para o seu cultivo.
+                                    Posteriormente, sua expansão avança para o oeste Paulista, Minas Gerais e Espírito Santo.
+                                </p>
+                            </div>
+                            </div>
+                        </div>
 
+                    </div>
+
+
+            </div>
+        </div>
+   
+
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="format-h1">O término</h1>
+                <p class="format-text">
+                    O tráfico negreiro no brasil durou 3 séculos, iniciando por volta de 1550 e encerrando em 1850
+                    quando foi decretada a <strong>Lei Eusébio de Queirós</strong> que tinha como finalidade
+                    acabar com a atividade de tráfico de escravos transportados da África para o Brasil nos navios.
+                    <br>
+                    Em seguida, outras duas leis abolicionitas foram aprovadas, <strong>Lei do Ventre Livre</strong>
+                    garantindo que filhos de escravos, nascidos a partir daquela data, não poderiam ser considerados
+                    escravos e mantidos em cativeiros e, a <strong>Lei dos Sexagenários</strong> libertando escravos
+                    com idade superior a 60 anos.
+                    <br>
+                    Em 1880, a <strong>Lei Áurea</strong> entra em vigor extinguindo o sistema de escravidão, nesse
+                    ponto histórico, o Brasil era o único país independente da América Latina que ainda mantinha
+                    esse sistema social. A promulgação da lei se dá, após intensas campanhas abolicionitas e pressão
+                    pelo fim da escravidão.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="format-img">
+                    <img 
+                        src="./imagens/index/escravo_consegue_liberdade.png" 
+                        alt="Escravo africano servindo colono"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="bootstrap-5.3.8-dist/js/bootstrap.js">        
     </script>
-    <sscript src="js/jquery.js">        
-    </sscript>
+    <script src="js/jquery.js">        
+    </script>
 </body>
 </html>
