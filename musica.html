@@ -3,29 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/musica.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <title>Música</title>
 </head>
 <body>
-    <h1>Música</h1>
-    <p>
-        A <strong>música afro-brasileira</strong> é uma mistura das músicas africanas,
-        portuguesas e indígenas. Sendo a base para origem  de grande parte da música 
-        brasileira, como o <strong>samba</strong>, o <strong>choro</strong>, o <strong>maracatu</strong>
-        e <strong>jongo</strong>.
-    </p>
-    <p>
-        No iníco de criação, sofreu forte preconceito sendo rotulada como <strong>"música de marginal"</strong>.
-        Somente a partir do século XX, passou a ser vista como uma expressão cultural e artística, sendo
-        hoje um elemento fundamental na cultura popular. Utiliza instrumentos como o <strong>atabaque</strong>,
-        <strong>agogô</strong> e <strong>berimbau</strong>.
-    </p>
-    <h2>Capoeira</h2>
-    <p>
-        Criada pelos escravos africanos, duarante o período do Brasil colonial, era uma forma de resistência
-        e de autodefesa contra os senhores de engenho. 
-        Os movimentos foram encorporados em um ritmo música regido pelo berimbau para a criação de um estilo
-        de dança e expressão cultural, sendo reconhecida como um <strong>símbolo de identidade brasileira e Patrimônio
-        Cultural Imaterial da Humanidade pela UNESCO.</strong>
-    </p>
+    <div class="container">
+        <div class="row">
+            <nav  id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand navbar-brand-style" href="#">História</a>
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link navbar-list" aria-current="page" href="./culinaria.html">Culinária</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link navbar-list" href="./cultura.html">Arte</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link navbar-list" href="./musica.html">Música</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link navbar-list" href="./religiao.html">Religião</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-6">
+                <h1 class="format-h1">Música</h1>
+                <p class="format-text">
+                    A <strong>música afro-brasileira</strong> é uma mistura das músicas africanas,
+                    portuguesas e indígenas. Sendo a base para origem  de grande parte da música 
+                    brasileira, como o <strong>samba</strong>, o <strong>choro</strong>, o <strong>maracatu</strong>
+                    e <strong>jongo</strong>.
+                    <br>
+                    No iníco de criação, sofreu forte preconceito sendo rotulada como <strong>"música de marginal"</strong>.
+                    Somente a partir do século XX, passou a ser vista como uma expressão cultural e artística, sendo
+                    hoje um elemento fundamental na cultura popular. Utiliza instrumentos como o <strong>atabaque</strong>,
+                    <strong>agogô</strong> e <strong>berimbau</strong>.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-6">
+                <h2 class="format-h2">Capoeira</h2>
+                <p class="format-text">
+                    Criada pelos escravos africanos, durante o período do Brasil colonial, era uma forma de resistência
+                    e de autodefesa contra os senhores de engenho. 
+                    Os movimentos foram encorporados em um ritmo música regido pelo berimbau para a criação de um estilo
+                    de dança e expressão cultural, sendo reconhecida como um <strong>símbolo de identidade brasileira e Patrimônio
+                    Cultural Imaterial da Humanidade pela UNESCO.</strong>
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-6 format-img ">
+                <img 
+                    src="./imagens/musica/danca_capoeira.png" 
+                    alt="Dança da capoeira" class="size-img"
+                >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-6">
+                <h2 class="format-h2">Instrumentos</h2>
+                <p class="format-text">
+                    Os principais instrumentos da cultura afro-brasileira incluem 
+                    o berimbau, o atabaque, o agogô, o pandeiro e o caxixi. Eles são 
+                    encontrados em diversas manifestações culturais e religiosas, 
+                    como a capoeira e o candomblé, e em ritmos musicais como o samba, 
+                    afoxé e maracatu
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-6 format-img">
+                <img 
+                    src="./imagens/musica/berimbau.png" 
+                    alt="Instrumento musical Berimbau" class="size-img"
+                >
+            </div>
+        </div>
+    </div>
 </body>
 </html>
