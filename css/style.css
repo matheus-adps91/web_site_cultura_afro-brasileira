@@ -2,3 +2,35 @@
     margin: 0;
     pad: 0;
 }
+
+.row {
+    border: 1px solid #016236;
+}
+
+body {
+    background-color: #fffff0;
+}
+
+/* Títulos H1 */
+.format-h1 {
+    margin: 10px;
+    color: #713d2b;
+}
+
+/* Títulos H2 */
+.format-h2 {
+    color: #713d2b;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* Formatação de texto */
+.format-text {
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #713d2b;
+    font-weight: 500;
+}

@@ -1,5 +1,8 @@
+.size-img {
+    max-width: 100%;
+    height: auto;
+}
 
-/* Imagens */
 .format-img {
     display: flex;
     justify-content: center;  /* horizontal */
@@ -8,19 +11,10 @@
     padding: 20px;
 }
 
-/* banner */
-#banner {
-    padding: 0;
-}
-
 @media (max-width: 768px) {
-  
-    .row {
-        flex-direction: column;
-    }
 
     .format-text {
-        font-size: .8rem;
+        font-size: 0.8rem;
+        font-weight: 300;
     }
-
 }

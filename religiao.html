@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/religiao.css">
     <title>Religião</title>
 </head>
 <body>
-    <p>Aqui será a página de religião</p>
+    <div class="container">
+        <div class="row">
+            <nav  id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand navbar-brand-style" href="./index.html">História</a>
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link navbar-list" aria-current="page" href="./culinaria.html">Culinária</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link navbar-list" href="./musica.html">Música</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link navbar-list" href="./religiao.html">Religião</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <h1 class="format-h1">Religião</h1>
+            <p class="format-text">
+                As religiões afro-brasileiras, como o <strong>candomblé</strong> e a 
+                <strong>umbanda</strong>, são 
+                manifestações culturais que combinam tradições religiosas africanas 
+                com outras influências, como o catolicismo, o espiritismo e as crenças 
+                indígenas. Elas desempenham um papel crucial na preservação da cultura 
+                e identidade afro-brasileira através de rituais com música, dança, e o 
+                culto às divindades (orixás). O sincretismo com o catolicismo foi uma 
+                forma de manter práticas africanas secretas durante a escravidão, 
+                associando santos a orixás
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 format-img">
+                <img 
+                    src="./imagens/religiao/candomble.png" 
+                    alt="Ritual do candomble"                                 
+                >
+            </div>
+            <div class="col-12 col-sm-6 col-lg-6">
+                <h2 class="format-h2">Candomblé</h2>
+                <p class="format-text">
+                    Desenvolveu-se entre os séculos XVI e XIX com a vinda dos 
+                    escravizados africanos, misturando tradições de povos como 
+                    <strong>iorubás</strong>, <strong>bantus</strong> e 
+                    <strong>jejes</strong> com o catolicismo.
+                    Baseado na veneração dos <strong>orixás</strong>, divindades 
+                    que representam forças da natureza e sentimentos
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-6">
+                <h2 class="format-h2">Umbanda</h2>
+                <p class="format-text">
+                    Surgiu no início do século XX no Rio de Janeiro, resultando 
+                    de um sincretismo ainda mais amplo.
+                    Mescla elementos do <strong>candomblé</strong>, <strong>catolicismo</strong>, 
+                    <strong>espiritismo kardecista</strong> e <strong>lendas indígenas</strong>. 
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-6 format-img">
+                <img 
+                    src="./imagens/religiao/umbanda.png" 
+                    alt="Ritual umbandista"                                 
+                >
+            </div>
+        </div>
+    </div>
 </body>
 </html>
